@@ -54,14 +54,46 @@
 		D3671056212F5D49005E6888 /* tabs-tabs-tabs */ = {
 			isa = PBXGroup;
 			children = (
-				D3671057212F5D4A005E6888 /* AppDelegate.swift */,
-				D3671059212F5D4A005E6888 /* ViewController.swift */,
-				D367105B212F5D4A005E6888 /* Main.storyboard */,
-				D367105E212F5D4B005E6888 /* Assets.xcassets */,
-				D3671060212F5D4B005E6888 /* LaunchScreen.storyboard */,
 				D3671063212F5D4B005E6888 /* Info.plist */,
+				D3671057212F5D4A005E6888 /* AppDelegate.swift */,
+				D367106B212FE419005E6888 /* Swift Files */,
+				D3671069212FE3F8005E6888 /* Resources */,
 			);
 			path = "tabs-tabs-tabs";
+			sourceTree = "<group>";
+		};
+		D3671069212FE3F8005E6888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D367106A212FE406005E6888 /* Storyboards */,
+				D367105E212F5D4B005E6888 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D367106A212FE406005E6888 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D367105B212F5D4A005E6888 /* Main.storyboard */,
+				D3671060212F5D4B005E6888 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D367106B212FE419005E6888 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				D367106C212FE424005E6888 /* Controllers */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		D367106C212FE424005E6888 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3671059212F5D4A005E6888 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
