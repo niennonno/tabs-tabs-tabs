@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabBarController.swift
 //  tabs-tabs-tabs
 //
 //  Created by Aditya Vikram Godawat on 24/08/18.
@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabBarController: UITabBarController {
 
+    // MARK: - View Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
     }
-
-
 }
 
