@@ -38,10 +38,13 @@ extension FirstViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! UITableViewCell
+        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
         
-        cell.textLabel?.text = String((indexPath.row + 1) * 2) // Displays even numbers
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: cellIdentifier)
+        }
+        cell!.textLabel?.text = String((indexPath.row + 1) * 2) // Displays even numbers
         
-        return cell
+        return cell!
     }
 }

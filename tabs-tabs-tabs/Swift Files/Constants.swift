@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+let googleUrl = "https://www.google.com/"
+let cellIdentifier = "cell"
+
 
 
 

@@ -31,7 +31,7 @@ class SecondViewController: UIViewController {
     //MARK: - Custom Actions
     
     func loadUrl() {
-        if let url = URL(string: "https://www.google.com/") {
+        if let url = URL(string: googleUrl) {
             let request = URLRequest(url: url)
             webView.loadRequest(request)
         }
